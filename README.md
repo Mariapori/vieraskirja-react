@@ -1,1 +1,1 @@
-# Frontend for vieraskirja-api
+# React Frontend for vieraskirja-api
