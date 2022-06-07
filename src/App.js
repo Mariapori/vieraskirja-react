@@ -25,15 +25,15 @@ function App() {
         </thead>
         <tbody>
           {kirjoitukset.map((kirjoitus)=>
-          <tr key={kirjoitus.Id}>
+          <tr key={kirjoitus.id}>
             <td>
-              {kirjoitus.PVM}
+              {kirjoitus.pvm}
             </td>
             <td>
-              {kirjoitus.Kirjoittaja}
+              {kirjoitus.kirjoittaja}
             </td>
             <td>
-              {kirjoitus.Viesti}
+              {kirjoitus.viesti}
             </td>
           </tr>
           )}
